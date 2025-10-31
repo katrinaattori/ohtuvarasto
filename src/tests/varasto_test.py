@@ -77,7 +77,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 7)
 
     def test_str_palauttaa_oikean_merkkijonon(self):
-        self.varasto.lisaa_varastoon(15)
+        self.varasto.lisaa_varastoon(5)
         teksti = str(self.varasto)
         self.assertIn("saldo = 5", teksti)
         self.assertIn("vielä tilaa 5", teksti)
