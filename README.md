@@ -1,3 +1,3 @@
 # ohtuvarasto
 
-![CI](https://github.com/katrinaattori/ohtuvarasto/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/katrinaattori/ohtuvarasto/actions/workflows/main.yml/badge.svg)
